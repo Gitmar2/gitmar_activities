@@ -1,0 +1,54 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,205,233,1) 100%);
+    
+}
+.OP{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: solid 2px;
+    padding: 20px;
+    width: 380px;
+    opacity: 0.4;
+}
+.OP:hover{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,148,155,1) 100%);
+    opacity: 1;
+}
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 290px;  
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pagination li{
+    padding: 10px;
+    opacity: 1;
+}
+.pagination li:hover{
+   opacity: 0.3;
+   padding: 15px;
+   border: solid 2px;
+}
+.pagination2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pagination2 a{
+    padding: 20px;
+    list-style: none;
+    color: black;
+    font-weight: 600;
+    opacity: 1;
+}
+.pagination2 a:hover{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,229,148,1) 100%);
+}
